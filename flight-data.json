@@ -1,0 +1,88 @@
+{
+    "flight": [
+        {
+            "from": "bbs",
+            "to": "blr",
+            "name": "Boeing 789",
+            "tod": "8:00 am",
+            "toa": "10:20 am"
+        },
+        {
+            "from": "bbs",
+            "to": "blr",
+            "name": "Boeing 123",
+            "tod": "10:20 am",
+            "toa": "12:20 pm"
+        },
+        {
+            "from": "bbs",
+            "to": "blr",
+            "name": "Boeing 456",
+            "tod": "13:20 pm",
+            "toa": "16:20 pm"
+        },
+        {
+            "from": "bbs",
+            "to": "mum",
+            "name": "Boeing 654",
+            "tod": "8:20 am",
+            "toa": "10:20 am"
+        },
+        {
+            "from": "bbs",
+            "to": "mum",
+            "name": "Boeing 321",
+            "tod": "13:00 pm",
+            "toa": "15:20 pm"
+        },
+        {
+            "from": "bbs",
+            "to": "mum",
+            "name": "Boeing 987",
+            "tod": "16:20 am",
+            "toa": "18:00 am"
+        },
+        {
+            "from": "kol",
+            "to": "mum",
+            "name": "Boeing 135",
+            "tod": "07:00 am",
+            "toa": "10:20 am"
+        },
+        {
+            "from": "kol",
+            "to": "mum",
+            "name": "Boeing 357",
+            "tod": "10:00 am",
+            "toa": "13:20 pm"
+        },
+        {
+            "from": "kol",
+            "to": "mum",
+            "name": "Boeing 579",
+            "tod": "15:00 pm",
+            "toa": "18:30 pm"
+        },
+        {
+            "from": "kol",
+            "to": "blr",
+            "name": "Boeing 246",
+            "tod": "9:30 am",
+            "toa": "11:50 am"
+        },
+        {
+            "from": "kol",
+            "to": "blr",
+            "name": "Boeing 468",
+            "tod": "13:30 pm",
+            "toa": "16:00 pm"
+        },
+        {
+            "from": "kol",
+            "to": "blr",
+            "name": "Boeing 682",
+            "tod": "20:00 pm",
+            "toa": "22:40 pm"
+        }
+    ]
+}

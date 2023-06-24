@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  text-align: center;
+  color: black;
+  overflow-x: hidden;
+}
+
+.bodyDiv {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+  font-size: larger;
+  mix-blend-mode: luminosity;
+  background: url("https://wallpaper.dog/large/10792445.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  background-color: transparent;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  border: #141314;
+  margin-top: 4em;
+}
+
+.container .title {
+  font-size: 25px;
+  position: relative;
+  text-align: left;
+  color: white;
+  -webkit-text-stroke-width: 0.9px;
+  -webkit-text-stroke-color: black;
+}
+
+.container .title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .input-box span.details {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #fffbfb;
+  mix-blend-mode: difference;
+  font-weight: bolder;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 0.7px;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: black;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #141314;
+}
+
+form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+  background: #9b59b6;
+  border-color: #d9d9d9;
+}
+
+form .button {
+  height: 45px;
+  margin: 35px 0;
+  overflow: hidden;
+}
+
+form .button input {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  color: #0a0a0a;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  opacity: 0.9;
+}
+
+form .button input:hover {
+  transform: scale(0.99);
+
+  #dot-1:checked~.category label .one,
+  #dot-2:checked~.category label .two,
+  #dot-3:checked~.category label .three {
+    background: #9b59b6;
+    border-color: #d9d9d9;
+  }
+}
+
+
+@media(max-width: 584px) {
+  .container {
+    max-width: 100%;
+  }
+
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  form .category {
+    width: 100%;
+  }
+
+  .content form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .user-details::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+@media(max-width: 459px) {
+  .container .content .category {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+.schedData {
+  background: #20002c;
+  background-image: linear-gradient(to right, #5EFCE8 10%, #736EFE 100%);
+  width: 100vw;
+  height: auto;
+  padding: 6em 0;
+}
+
+.schedule {
+  color: sienna;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.info {
+  margin: 3em 4em;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.table-data {
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+.table-data table {
+  width: 50em;
+  text-align: center;
+}
+
+.table-data table th {
+  font-size: 1.5em;
+}

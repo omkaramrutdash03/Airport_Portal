@@ -1,0 +1,44 @@
+{
+<<<<<<< HEAD
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+=======
+  "mydata": [
+    {
+      "id": 1685862018808,
+      "email": "omkar@1",
+      "password": "1234"
+    },
+    {
+      "id": 1685862552478,
+      "email": "om",
+      "password": "12"
+    },
+    {
+      "id": 1685866668774,
+      "email": "rpatrasm@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 1685894155050,
+      "email": "om",
+      "password": "12"
+    }
+  ]
+>>>>>>> 6a7d9a9bbf60da54a126380653edae30b89e12d0
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="4tr">
+<<<<<<< HEAD
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body background="https://wallpaper.dog/large/10792445.jpg">
+  <div class="container">
+    <div class="title">Details</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name:</span>
+            <input type="text" placeholder="Enter your first name" required> 
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name:</span>
+            <input type="text" placeholder="Enter your last name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email:</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number:</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Number of adults(12+):</span>
+            <input type="text" placeholder="Enter number of adults" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Number of children:</span>
+            <input type="text" placeholder="Enter number of children" required>
+          </div>
+          <label for="source">Fly from:</label>
+=======
+
+<head>
+  <meta charset="UTF-8">
+  <title> Responsive Registration Form </title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="bodyDiv">
+    <div class="container">
+      <div class="title">Details</div>
+      <div class="content">
+        <form action="" id="scheduleForm">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Your Name:</span>
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <span class="details">Email:</span>
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number:</span>
+              <input type="text" placeholder="Enter your number">
+            </div>
+            <div class="input-box">
+              <span class="details">Number of adults(12+):</span>
+              <input type="text" placeholder="Enter number of adults">
+            </div>
+            <div class="input-box">
+              <span class="details">Number of children:</span>
+              <input type="text" placeholder="Enter number of children">
+            </div>
+            <div class="input-box">
+              <span class="details">Date of journey:</span>
+              <input type="date" id="date">
+            </div>
+            <label for="source">Fly from:</label>
+>>>>>>> 6a7d9a9bbf60da54a126380653edae30b89e12d0
+            <select name="source" id="source">
+              <option value="bbs">BHUBANESWAR</option>
+              <option value="kol">KOLKATA</option>
+            </select>
+            <label for="source">Fly to:</label>
+            <select name="destination" id="destination">
+              <option value="mum">MUMBAI</option>
+              <option value="blr">BENGALURU</option>
+            </select>
+          </div>
+
+          <div class="button">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="schedData">
+    <h1 class="schedule">Flight Schedule</h1>
+    <div class="info">
+      <div class="board">
+        <h2>Boarding Airport</h2>
+        <h4 id="board"></h4>
+      </div>
+      <div class="date">
+        <h2>Date of Boarding</h2>
+        <h4 id="doBoard"></h4>
+      </div>
+      <div class="dest">
+        <h2>Destination Airport</h2>
+        <h4 id="dest"></h4>
+      </div>
+    </div>
+
+    <div class="table-data">
+      <table border="2" cellpadding="15" cellspacing="0" id="flightTable">
+        <tr>
+          <th>Name of Aeroplane</th>
+          <th>Time of Departure</th>
+          <th>Time of Arrival</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
